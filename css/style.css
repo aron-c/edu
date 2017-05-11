@@ -2,6 +2,19 @@
         /*font-family: 微软雅黑；*/
     }
     
+    #myModal {
+        margin-top: 50px;
+    }
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none !important;
+    }
+    
+    input[type="number"] {
+        -moz-appearance: textfield;
+    }
+    
     .navbar {
         z-index: 9999;
         background: rgba(30, 30, 30, .7);
@@ -71,6 +84,10 @@
     .brandLogo {
         height: 100%;
         width: auto;
+    }
+    
+    #divNav ul {
+        min-width: 200px;
     }
     /*index主体*/
     
@@ -197,4 +214,37 @@
     .history {
         margin: 0 auto;
         width: 800px;
+    }
+    /*薪资选择*/
+    
+    .colorPro {
+        background-color: transparent;
+    }
+    
+    .selAge {
+        margin-top: 50px;
+    }
+    
+    .selZone {
+        margin-top: 50px;
+    }
+    
+    .selMoney div {
+        margin-top: 50px;
+    }
+    
+    .yourName {
+        margin-top: 50px;
+    }
+    
+    .menuName {
+        width: 167px;
+    }
+    
+    .menuZoneName {
+        width: 167px;
+    }
+    
+    .menuMoney {
+        width: 167px;
     }
