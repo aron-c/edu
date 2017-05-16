@@ -363,12 +363,12 @@
         $(document).ready(function() {
             $("#section1").click(function() {
                 $("body").animate({
-                    scrollTop: $("#section-1").offset().top - offsetTop
+                    scrollTop: $(".noTopMrgn").offset().top - offsetTop
                 }, 500)
             });
             $("#section2").click(function() {
                 $("html,body").animate({
-                    scrollTop: $("#section-2").offset().top - offsetTop
+                    scrollTop: $(".gray-bg").offset().top - offsetTop
                 }, 500)
             });
             $("#section3").click(function() {
